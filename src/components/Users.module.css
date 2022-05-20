@@ -1,0 +1,41 @@
+.users {
+	background-color: #eee;
+	width: 600px;
+	padding: 20px;
+	margin: 80px auto 80px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.users > div {
+	flex: 1 1 200px;
+}
+
+.avatar_url {
+	width: 200px;
+	flex-direction: row;
+	display: flex;
+	background-color: #aaa;
+}
+
+.name {
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	width: auto;
+	height: 40px;
+	background-color: #ccc;
+}
+
+.login {
+	display: flex;
+	font-size: 20px;
+	width: auto;
+	background-color: #ccc;
+}
+
+.users div:not([class*="flex"]) {
+	border: 1px solid white;
+	flex: 1 1 200px;
+	width: 300px;
+}
