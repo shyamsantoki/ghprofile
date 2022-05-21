@@ -1,0 +1,62 @@
+body {
+	width: 100%;
+}
+
+.id {
+	margin: 10px;
+	width: 500px;
+	background-color: rgb(248, 248, 248);
+	padding: 30px;
+	border-radius: 20px;
+	margin: 20px auto 20px auto;
+}
+.language {
+	display: inline-block;
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 15px 0px 0px 0px;
+	padding: 0px 5px 2px 5px;
+	line-height: 20px;
+	background-color: #ddd;
+}
+.reponame {
+	font-size: 20px;
+	line-height: 30px;
+}
+.name {
+	font-weight: bold;
+}
+.repoinfo {
+	display: flex;
+	width: 250px;
+}
+.repoinfo * {
+	flex: 1 1 100px;
+}
+.description {
+	padding: 5px 0 10px 0;
+	color: #444;
+	line-height: 25px;
+}
+.na {
+	font-style: italic;
+}
+.homepage {
+	padding: 0 0 20px 0;
+}
+.license,
+.size {
+	padding: 10px 0px 0px 0px;
+}
+.text {
+	padding-top: 15px;
+	font-weight: 500;
+	color: grey;
+	line-height: 20px;
+}
+.title {
+	font-size: 32px;
+	font-weight: 800;
+	text-align: center;
+}

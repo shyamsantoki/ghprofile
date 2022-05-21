@@ -8,6 +8,16 @@ body {
 	width: 100vw;
 	position: absolute;
 	font-family: "Plus Jakarta Sans", sans-serif;
+	background: rgb(162, 157, 255);
+	background: linear-gradient(
+		45deg,
+		rgba(162, 157, 255, 0.5) 0%,
+		rgba(113, 202, 255, 0.5) 100%
+	);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 body::before {
@@ -15,12 +25,6 @@ body::before {
 	position: absolute;
 	width: inherit;
 	height: inherit;
-	background: rgb(162, 157, 255);
-	background: linear-gradient(
-		45deg,
-		rgba(162, 157, 255, 0.5) 0%,
-		rgba(113, 202, 255, 0.5) 100%
-	);
 	z-index: -1;
 }
 
@@ -76,7 +80,7 @@ body::before {
 
 .text {
 	padding-top: 15px;
-	font-family: "Plus Jakarta Sans", sans-serif;
+	font-family: "Plus Jakarta Sans";
 	font-weight: 500;
 }
 
