@@ -1,0 +1,3 @@
+useTabs: True
+printWidth: 80
+eslintIntegration: True

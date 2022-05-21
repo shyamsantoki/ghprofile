@@ -1,19 +1,15 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Users from './Users'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Users from "./Users";
 
 export default function Home() {
-  return (
+	return (
 		<Router>
 			<Switch>
 				<Route path="/:username">
-					<Users/>
+					<Users />
 				</Route>
 			</Switch>
 		</Router>
-  );
+	);
 }
